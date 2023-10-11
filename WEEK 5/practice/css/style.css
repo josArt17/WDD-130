@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainImg {
+    background-image: url("../img/w05_circles.jpg");
+    background-size: cover;
+    width: 650px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.imgBottom {
+    background-color: #737272;
+    width: 650px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgBottom img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #444545;
+}
